@@ -41,3 +41,9 @@ body {
   color: red;
   font-weight: bolder;
 }
+
+.first-letter::first-letter {
+  color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
