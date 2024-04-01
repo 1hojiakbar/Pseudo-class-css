@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 0 0;
+  row-gap: 1rem;
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #a2a2a2;
+  width: 20rem;
+  height: 4rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  user-select: none;
+  box-shadow: rgba(149, 149, 149, 0.89) 0px 13px 27px -5px,
+    rgba(136, 136, 136, 0.977) 0px 8px 16px -8px;
+  border-radius: 0.8rem;
+  background: white;
+  column-gap: 0.6rem;
+}
+
+.after::after {
+  content: " Hello World";
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+.before::before {
+  content: "Hello World ";
+  color: red;
+  font-weight: bolder;
+}
