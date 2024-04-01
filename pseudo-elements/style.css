@@ -37,13 +37,29 @@ body {
 }
 
 .before::before {
-  content: "Hello World ";
+  content: "Hello World";
   color: red;
   font-weight: bolder;
+  background-color: #222;
 }
 
 .first-letter::first-letter {
-  color: green;
+  color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
+  background-color: black;
+}
+
+.first-line::first-line {
+  color: blue;
+  background-color: #000;
+}
+
+.marker {
+  margin-left: 1rem;
+}
+
+.marker li::marker {
+  color: red;
+  font-size: 1.2rem;
 }
